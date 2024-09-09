@@ -11,7 +11,7 @@ import Projects from './component/Projets/Projets';
 
 function App() {
   return (
-    <div>
+    <div className='container-body'>
       <Header />
       <Hero />
       <Projects />
