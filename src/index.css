@@ -24,7 +24,6 @@ code {
   color: white; /* Couleur du texte pour contraste */
   padding: 50px;
   text-align: center;
-  height: 50vw;
 }
 .cv{
   margin-top: 10vw;
@@ -194,7 +193,7 @@ form{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 600px;
+  max-width: 500px;
   width: 100%;
   margin: auto;
 }
@@ -219,10 +218,8 @@ input{
 .input-wrapper input {
   padding: 5px;
   font-size: 1.2rem;
-  width: 50%;
 }
 textarea{
-  width: 50%;
   height: 12vw;
 }
 .succesMessage{
@@ -324,7 +321,7 @@ textarea{
 }
 
 
-@media screen and (max-width: 745px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   #skills{
     display: flex;
     flex-direction: column;
@@ -335,4 +332,26 @@ textarea{
   .project-card{
     width: 42% !important;
   }
+}
+
+@media screen and (max-width: 767.98px){
+.project-card{
+  width: 100% !important;
+}
+#skills{
+  flex-direction: column;
+}
+.skills-image{
+  justify-content: center;
+}
+#hero{
+  text-align: justify;
+}
+.hero-content{
+  height: auto !important;
+}
+.category-bar{
+  display: grid;
+  grid-template-columns: 150px 150px;
+}
 }

@@ -30,7 +30,7 @@ const Hero = () => {
       
       <div className="hero-content">
       <h1><span ref={el}></span></h1>
-        <p>Ancien juriste diplômé d’un master en droit fiscal, et désormais développeur web en reconversion. 
+        <p className='intro'>Ancien juriste diplômé d’un master en droit fiscal, et désormais développeur web en reconversion. 
           Ce portfolio met en lumière mes compétences techniques et mes projets, fruits d’une passion pour la création de solutions numériques.
            Mon parcours atypique me permet de combiner rigueur et créativité dans le développement d’applications web innovantes, alliant simplicité d’utilisation et performance.
           </p>
