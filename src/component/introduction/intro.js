@@ -27,6 +27,7 @@ const Hero = () => {
 
   return (
     <section id="hero">
+      
       <div className="hero-content">
       <h1><span ref={el}></span></h1>
         <p>Ancien juriste diplômé d’un master en droit fiscal, et désormais développeur web en reconversion. 
@@ -38,7 +39,7 @@ const Hero = () => {
             </strong>
           <br/>  
         <div className='cv'>
-        <a href="/CV.pdf" className="btn">Télécharger mon CV</a>
+        <a href="/CV_Steve_Professionnel.pdf" download="CV_Steve_Professionnel.pdf" className="btn">Télécharger mon CV</a>
         </div>  
       </div>
     </section>

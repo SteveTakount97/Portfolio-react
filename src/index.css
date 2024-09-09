@@ -170,10 +170,13 @@ h1, p, strong, .btn {
 /*code du composant categorybar*/
 .category-bar {
   display: flex;
+  justify-content: center;
   gap: 10px;
   margin-bottom: 20px;
 }
-
+h2{
+  text-align: center;
+}
 .category-bar button {
   padding: 10px 20px;
   cursor: pointer;
@@ -190,6 +193,10 @@ h1, p, strong, .btn {
 form{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
 }
 input{
   padding: 1em;
@@ -212,11 +219,14 @@ input{
 .input-wrapper input {
   padding: 5px;
   font-size: 1.2rem;
-  width: 35%;
+  width: 50%;
 }
 textarea{
-  width: 35%;
+  width: 50%;
   height: 12vw;
+}
+.succesMessage{
+  text-align: center;
 }
 /*composant Modal*/
 .modal-overlay {
@@ -237,10 +247,20 @@ textarea{
   padding: 20px;
   border-radius: 8px;
   width: 70%;
-  height: 50vw;
-  max-width: 500px;
+  max-width: 700px;
   text-align: center;
   position: relative;
+  opacity: 0; /* Départ transparent */
+  transform: scale(0.8); /* Départ plus petit */
+  animation: fadeIn 0.4s forwards ease-in-out; /* Animation d'apparition */
+}
+
+/* Animation d'apparition */
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* Fin à pleine opacité */
+    transform: scale(1); /* Fin à échelle normale */
+  }
 }
 .modal-content-second{
   position: relative;
@@ -248,7 +268,7 @@ textarea{
 }
 
 .modal-image {
-  width: 40%;
+  width: 30%;
   height: auto;
   margin-bottom: 20px;
 }
@@ -282,4 +302,37 @@ textarea{
   border: none;
   font-size: 20px;
   cursor: pointer;
+}
+.about {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+  color: #333;
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-left: 5px solid #00aaff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.about:hover {
+  background-color: #e0f7ff;
+  border-color: #0088cc;
+}
+
+
+@media screen and (max-width: 745px) {
+  #skills{
+    display: flex;
+    flex-direction: column;
+  }
+  .skills-image{
+    justify-content: center;
+  }
+  .project-card{
+    width: 42% !important;
+  }
 }

@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about">
       <h2>À propos de moi</h2>
-      <p>
+      <p className='about'>
       Avec un master en droit fiscal, j’ai exercé dans le domaine juridique avant de décider de suivre ma passion pour le développement web.
        Cette reconversion professionnelle m’a permis d'acquérir des compétences solides en développement front-end et back-end. Je travaille principalement avec React,
       JavaScript et des technologies modernes pour créer des expériences utilisateurs optimales.
