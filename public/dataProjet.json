@@ -12,22 +12,24 @@
     {
       "id": "2",
       "title": "Projet 4",
-      "description": "Amélioration de l'interface d'un site mobile avec des animations CSS",
+      "description": "Amélioration de l'interface du site OhmyFood avec des animations modernes",
       "image": "/img/sass.jpeg",
       "category": "HTML/CSS",
-      "skills": ["Intégration HTML5", "La logique SASS", "Annimation de la page avec SASS"],
+      "skills": ["Intégration HTML5", "La logique SASS", "Site Responsive", "Annimation de la page avec SASS"],
       "info": "Ce projet Nous a amèné à travailler sur l'interface mobile-first du site d’une start-up.  L'utilisation de Sass, implémentation des animations CSS et versionnisation du projet avec Git et GitHub. La principale tâche était d'intégrer une maquette en mobile-first. ",
-      "link": "https://github.com/SteveTakount97/projet4.git"
+      "link": "https://github.com/SteveTakount97/projet4.git",
+      "Site": "https://stevetakount97.github.io/projet4"
     },
     {
       "id": "3",
       "title": "Projet 5",
-      "description": "Manipulation des données avec du JavaScript",
+      "description": "Mise en place d'un Caroussel infini d'un Site d'impression avec du javaSript",
       "image": "/img/js.jpeg",
       "category": "JavaScript",
-      "skills": ["Intégration HTML5", "Utilisation CSS3", "La logique JavaScript", "Manipulation des éléments du DOM"],
+      "skills": ["Intégration HTML5", "Utilisation CSS3", "Maîtrise de la logique JavaScript", "Manipulation des éléments du DOM"],
       "info": "Ce projet, nous a initier au langage JavaScript en chargeant de dynamiser le site internet statique d'une imprimerie en y ajoutant un carrousel interactif.",
-      "link": "https://github.com/SteveTakount97/Projet5_openclassroom.git"
+      "link": "https://github.com/SteveTakount97/Projet5_openclassroom.git",
+      "Site":"https://stevetakount97.github.io/Projet5_openclassroom"
     },
     {
         "id": "4",
@@ -35,7 +37,7 @@
         "description": "Création d'une page web dynamique",
         "image": "/img/js.jpeg",
         "category": "JavaScript",
-        "skills": ["La logique JavaScript", "Redaction des requêtes HTTP via API", "Manipulation des éléments du DOM"],
+        "skills": ["Dynamisation du site avec JavaScript", "Redaction des requêtes HTTP via API", "Manipulation des éléments du DOM"],
         "info": "Ce projet Nous engage à créer une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API.",
         "link": "https://github.com/SteveTakount97/Projet6.git"
       },
@@ -45,7 +47,7 @@
         "description": "Planification du développement d'un site web",
         "image": "/img/notion1.jpeg",
         "category": "SEO",
-        "skills": ["Utilisation de Notion pour la gestion des tâches", "Redaction sur un documents les spécificités techniques du site", "Une enquête sur les besoins du clients"],
+        "skills": ["Utilisation de Notion pour la gestion des tâches", "Redaction des spécificités techniques du site", "Une enquête sur les besoins du clients"],
         "info": "Ce projet Nous implique dans la planification du développement d'un site web. Votre rôle consistera à planifier le développement du site web, sans intervenir directement dans le codage. En ayant  accès à la maquette, aux spécifications fonctionnelles et aux User Stories du site.",
         "link": ""
       },
@@ -75,7 +77,7 @@
         "description": "Débuggez le site d'une agence d'événementiel",
         "image": "/img/reactdevtool.jpeg",
         "category": "React",
-        "skills": ["React", "", " Uilisation de React developperTools"],
+        "skills": ["React", "Analyse et résolution des bugs", " Uilisation de React developperTools"],
         "info": "Dans ce projet, Nous avons débugger et finaliser le développement d'un site one-page. Votre premier objectif sera d'examiner le code existant. En utilisant les Chrome DevTools pour identifier et comprendre les problèmes et bugs signalés dans le site web actuel. Après avoir identifié les problèmes, Nous étions chargé de résoudre ces bugs et problèmes.",
         "link": "https://github.com/SteveTakount97/Projet10-debuging.git"
       },
