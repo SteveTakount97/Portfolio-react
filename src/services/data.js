@@ -1,7 +1,7 @@
 // Function to fetch data
 export   const fetchDataProjet = async () => {
     try {
-      const response = await fetch('./dataProjet.json'); // Utilisation de fetch pour importer les données
+      const response = await fetch(`${process.env.PUBLIC_URL}/dataProjet.json`); // Utilisation de fetch pour importer les données
       if (!response.ok) {
         throw new Error('Erreur lors de la récupération des données');
       }

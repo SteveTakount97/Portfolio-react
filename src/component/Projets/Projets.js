@@ -60,7 +60,7 @@ const Projects = () => {
         {filteredProjets.length > 0 ? (
           filteredProjets.map((project, index) => (
             <div key={index} className="project-card"  onClick={() => openModal(project)}>
-              <img src={project.image} alt={project.title} className='img-projet'/>
+              <img src={`${process.env.PUBLIC_URL}${project.image}`} alt={project.title} className='img-projet'/>
               <h3>{project.title}</h3>
               <p>{project.description}</p>
               <a href={project.link} target="_blank" rel="noopener noreferrer">Voir sur GitHub</a>

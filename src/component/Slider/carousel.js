@@ -21,9 +21,9 @@ const Carroussel = ({ project = [], title }) => {
 
   return (
     <div className='cover'>
-      <div className="logement-image">
+      <div className="carousel-image" >
         {/* Ici, on affiche l'image actuelle */}
-        <img src={project[currentImageIndex]} alt={title} className="carousel-image" />
+        <img src={`${process.env.PUBLIC_URL}${project[currentImageIndex]}`}  alt={title}  className='image-caroussel'/>
       </div>
       {project.length > 1 && (
         <div className='image-counter'>

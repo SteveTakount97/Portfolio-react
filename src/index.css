@@ -25,12 +25,15 @@ code {
 #hero {
   position: relative;
   background-image: url('../public/img/photo_p.avif'); /* Lien vers votre image */
+  background-size: 300px 150px; /* Largeur de 300px, hauteur de 150px */
   background-size: contain; /* Pour couvrir toute la section */
   background-position: center; /* Centrer l'image */
   background-repeat: no-repeat;
   color: white; /* Couleur du texte pour contraste */
   padding: 50px;
   text-align: center;
+  height: 400px;
+  max-width: 1440px;
 }
 .cv{
   margin-top: 10vw;
@@ -38,6 +41,7 @@ code {
 .hero-content {
   position: relative; /* Important pour maintenir le contenu au-dessus */
   z-index: 1;
+  margin: auto;
 }
 
 #hero::before {
@@ -47,6 +51,7 @@ code {
   left: 0;
   width: 100%;
   height: 100%;
+  max-width: 1440px;
   background-color: rgba(0, 0, 0, 0.5); /* Filtre sombre avec opacité pour lisibilité */
   z-index: 0; /* Met le filtre derrière le contenu */
 }
@@ -151,7 +156,10 @@ h1, p, strong, .btn {
   gap: 10px;
   margin-bottom: 0.5em;
 }
-
+.carousel-image{
+  width: 100%;
+  height: 100%;
+}
 .skill-header h3 {
   margin: 0;
 }
@@ -357,6 +365,8 @@ textarea{
 }
 #hero{
   text-align: justify;
+  max-width: 767px;
+  height: auto;
 }
 .hero-content{
   height: auto !important;
@@ -374,5 +384,8 @@ textarea{
 }
 .modal-info{
   width: 100%;
+}
+ .about, h1, p, strong  {
+  font-size: 0.8em;
 }
 }

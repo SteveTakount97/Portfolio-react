@@ -37,7 +37,7 @@ const Skills = () => {
 
    // Extraire les images de chaque projet
    const projectImages = project.map(project => project.image);
-
+   const projectTitle = project.map(project => project.title);
   return (
     
     <div id="skills-wrapper">
@@ -45,7 +45,7 @@ const Skills = () => {
   
   <section id="skills">
     <div className="skills-image">
-      <Carroussel project={projectImages} title={project.title} />
+      <Carroussel project={projectImages} title={projectTitle} />
     </div>
 
     <div className="skills-container">
