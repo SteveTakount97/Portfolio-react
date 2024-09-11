@@ -1,0 +1,95 @@
+[
+    {
+        "id": "1",
+        "title": "Projet 3",
+        "description": "Création de la page d'accueil responsive d'une agence de voyage HTML5-CSS",
+        "image": "/img/html5-Css.jpeg",
+        "category": "HTML/CSS",
+        "skills": ["Intégration HTML5", "CSS3", "Site Responsive", "Manipulation des blocs HTML"],
+        "info": "Dans ce projet, j'ai crée la page d'accueil d'une agence de voyage en utilisant HTML et CSS. Ma mission principale était d'intégrer l'interface responsive de leur site",
+        "link": "https://github.com/SteveTakount97/Projet3-Booki.git"
+      },
+    {
+      "id": "2",
+      "title": "Projet 4",
+      "description": "Amélioration de l'interface du site OhmyFood avec des animations modernes",
+      "image": "/img/sass.jpeg",
+      "category": "HTML/CSS",
+      "skills": ["Intégration HTML5", "La logique SASS", "Site Responsive", "Annimation de la page avec SASS"],
+      "info": "Ce projet m'a amèné à travailler sur l'interface mobile-first du site d’une start-up.  L'utilisation de Sass, implémentation des animations CSS et versionnisation du projet avec Git et GitHub. La principale tâche était d'intégrer une maquette en mobile-first. ",
+      "link": "https://github.com/SteveTakount97/projet4.git",
+      "Site": "https://stevetakount97.github.io/projet4"
+    },
+    {
+      "id": "3",
+      "title": "Projet 5",
+      "description": "Mise en place d'un Carrousel infini d'un Site d'impression avec du javaSript",
+      "image": "/img/js.jpeg",
+      "category": "JavaScript",
+      "skills": ["Intégration HTML5", "Utilisation CSS3", "Maîtrise de la logique JavaScript", "Manipulation des éléments du DOM"],
+      "info": "Ce projet, m'a initié au langage JavaScript en chargeant de dynamiser le site internet statique d'une imprimerie en y ajoutant un carrousel interactif.",
+      "link": "https://github.com/SteveTakount97/Projet5_openclassroom.git",
+      "Site":"https://stevetakount97.github.io/Projet5_openclassroom"
+    },
+    {
+        "id": "4",
+        "title": "Projet 6",
+        "description": "Création d'une page web dynamique",
+        "image": "/img/js.jpeg",
+        "category": "JavaScript",
+        "skills": ["Dynamisation du site avec JavaScript", "Redaction des requêtes HTTP via API", "Manipulation des éléments du DOM"],
+        "info": "Dans Ce projet, Nous nous sommes engagés à créer une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API. J'ai travailleré sur la partie Front-End du site, où j'ai développeré la page de présentation des travaux de l'architecte à partir du HTML fourni. Cela impliquerait la gestion des événements utilisateurs et la manipulation des éléments du DOM avec JavaScript. J'ai créerez également une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias.",
+        "link": "https://github.com/SteveTakount97/Projet6.git"
+      },
+      {
+        "id": "5",
+        "title": "Projet 7",
+        "description": "Planification du développement d'un site web",
+        "image": "/img/notion1.jpeg",
+        "category": "SEO",
+        "skills": ["Utilisation de Notion pour la gestion des tâches", "Redaction des spécificités techniques du site", "Une enquête sur les besoins du clients"],
+        "info": "Ce projet m'a impliqué dans la planification du développement d'un site web. Mon rôle consistait à planifier le développement du site web, sans intervenir directement dans le codage. En ayant  accès à la maquette, aux spécifications fonctionnelles et aux User Stories du site.",
+        "link": ""
+      },
+      {
+        "id": "6",
+        "title": "Projet 8",
+        "description": "Création d'une application web de location immobilière avec React",
+        "image": "/img/react.jpeg",
+        "category": "React",
+        "skills": ["React", "Apprentissage dans la synthaxe React", "Appels via API", "Manipulation de la data base"],
+        "info": "Dans ce projet, J'ai implémenté le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive. J'ai travaillé sur la logique de présentation des données et les composants React, une bibliothèque JavaScript populaire pour la création d'interfaces utilisateur. J'ai utiliseré React Router enfin de configurer la navigation entre les différentes pages de l'application.",
+        "link": "https://github.com/SteveTakount97/Projet8-kasa-react.git"
+      },
+      {
+        "id": "7",
+        "title": "Projet 9",
+        "description": "Optimisation du réferencement d'un Site de photographe",
+        "image": "/img/ref.jpeg",
+        "category": "SEO",
+        "skills": ["Utilisation de Lighthouse", "Optimisation du SEO d'un site", "Utilisation de Wave", "Intégration HTML5"],
+        "info": "Dans ce projet, m'a amèné à travailler en tant que développeur freelance pour optimiser le référencement d’un site, en améliorant sa performance et son accessibilité. La première tâche était d'identifier les problèmes de chargement et de référencement.",
+        "link": "https://github.com/SteveTakount97/Projet9-referencement.git"
+      },
+      {
+        "id": "8",
+        "title": "Projet 10",
+        "description": "Débuggez le site d'une agence d'événementiel",
+        "image": "/img/reactdevtool.jpeg",
+        "category": "React",
+        "skills": ["React", "Analyse et résolution des bugs", " Uilisation de React developperTools"],
+        "info": "Dans ce projet, Il était question de débugger et finaliser le développement d'un site one-page. Mon premier objectif était d'examiner le code existant. En utilisant les Chrome DevTools pour identifier et comprendre les problèmes et bugs signalés dans le site web actuel. Après avoir identifié les problèmes, Je devai prendre en charge la résolution de ces bugs et problèmes.",
+        "link": "https://github.com/SteveTakount97/Projet10-debuging.git"
+      },
+      {
+        "id": "9",
+        "title": "Projet 11",
+        "description": "Implémentation du Front-end d'une application bancaire avec React",
+        "image": "/img/redux.jpeg",
+        "category": "React",
+        "skills": ["React", "Logique React-Redux-Tolki", "Appels API", "Optimisation du SEO du site"],
+        "info": "Dans ce projet, J'ai travaillé sur le développement front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive. La mission principale était d'intégrer le front-end avec le back-end via des appels API.",
+        "link": "https://github.com/SteveTakount97/Projet11-ArgentBank.git"
+      }
+  ]
+  

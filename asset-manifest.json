@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SteveTakount97/Portfolio-react.git/static/css/main.7054d45c.css",
+    "main.js": "/SteveTakount97/Portfolio-react.git/static/js/main.c629e1aa.js",
+    "static/js/453.906b0208.chunk.js": "/SteveTakount97/Portfolio-react.git/static/js/453.906b0208.chunk.js",
+    "static/media/photo_p.avif": "/SteveTakount97/Portfolio-react.git/static/media/photo_p.125fa114a06c36005f0d.avif",
+    "index.html": "/SteveTakount97/Portfolio-react.git/index.html",
+    "main.7054d45c.css.map": "/SteveTakount97/Portfolio-react.git/static/css/main.7054d45c.css.map",
+    "main.c629e1aa.js.map": "/SteveTakount97/Portfolio-react.git/static/js/main.c629e1aa.js.map",
+    "453.906b0208.chunk.js.map": "/SteveTakount97/Portfolio-react.git/static/js/453.906b0208.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7054d45c.css",
+    "static/js/main.c629e1aa.js"
+  ]
+}
