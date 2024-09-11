@@ -45,7 +45,7 @@ const Skills = () => {
   
   <section id="skills">
     <div className="skills-image">
-      <Carroussel project={projectImages}  />
+      <Carroussel project={projectImages} title={project.title} />
     </div>
 
     <div className="skills-container">
