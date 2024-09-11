@@ -23,7 +23,7 @@ const ModalProjet = ({ isOpen, onClose, project }) => {
         <button onClick={onClose} className="modal-close-btn">X</button>
         <h2 className="modal-title">{project.title}</h2>
         <div className="modal-image-wrapper">
-          <img src={project.image} alt={project.title} className="modal-image" />
+          <img src={`${process.env.PUBLIC_URL}${project.image}`} alt={project.title} className="modal-image" />
         </div>
         <p className="modal-description">{project.description}</p>
         <div className="modal-details">

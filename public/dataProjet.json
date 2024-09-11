@@ -27,7 +27,7 @@
       "image": "/img/js.jpeg",
       "category": "JavaScript",
       "skills": ["Intégration HTML5", "Utilisation CSS3", "Maîtrise de la logique JavaScript", "Manipulation des éléments du DOM"],
-      "info": "Ce projet, m'a initié au langage JavaScript en chargeant de dynamiser le site internet statique d'une imprimerie en y ajoutant un carrousel interactif.",
+      "info": "Ce projet, m'a initié au langage JavaScript en me chargeant de dynamiser le site internet statique d'une imprimerie en y ajoutant un carrousel interactif.",
       "link": "https://github.com/SteveTakount97/Projet5_openclassroom.git",
       "Site":"https://stevetakount97.github.io/Projet5_openclassroom"
     },
@@ -68,7 +68,7 @@
         "image": "/img/ref.jpeg",
         "category": "SEO",
         "skills": ["Utilisation de Lighthouse", "Optimisation du SEO d'un site", "Utilisation de Wave", "Intégration HTML5"],
-        "info": "Dans ce projet, m'a amèné à travailler en tant que développeur freelance pour optimiser le référencement d’un site, en améliorant sa performance et son accessibilité. La première tâche était d'identifier les problèmes de chargement et de référencement.",
+        "info": "Dans ce projet, j'étais dans la peau d'un développeur freelance avec pour objectif d'optimiser le référencement d’un site, en améliorant sa performance et son accessibilité. La première tâche était d'identifier les problèmes de chargement et de référencement.",
         "link": "https://github.com/SteveTakount97/Projet9-referencement.git"
       },
       {
@@ -78,7 +78,7 @@
         "image": "/img/reactdevtool.jpeg",
         "category": "React",
         "skills": ["React", "Analyse et résolution des bugs", " Uilisation de React developperTools"],
-        "info": "Dans ce projet, Il était question de débugger et finaliser le développement d'un site one-page. Mon premier objectif était d'examiner le code existant. En utilisant les Chrome DevTools pour identifier et comprendre les problèmes et bugs signalés dans le site web actuel. Après avoir identifié les problèmes, Je devai prendre en charge la résolution de ces bugs et problèmes.",
+        "info": "Dans ce projet, Il était question de débugger et finaliser le développement d'un site one-page. Mon premier objectif était d'examiner le code existant. En utilisant Chrome DevTools pour identifier et comprendre les problèmes et bugs signalés dans le site web actuel. Après avoir identifié les problèmes, Je devai prendre en charge la résolution de ces bugs et problèmes.",
         "link": "https://github.com/SteveTakount97/Projet10-debuging.git"
       },
       {
