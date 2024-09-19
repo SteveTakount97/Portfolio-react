@@ -32,8 +32,8 @@ section {
   gap: 1em;
 }
 .project-card:hover {
-  background-color: #333;
-  color: #fff;
+  background-color: #898686;;
+  color: #ffff;
   transform: scale(1.05); /* Agrandissement léger au survol */
 }
 .project-card {
@@ -46,7 +46,7 @@ section {
 .img-projet{
   object-fit: contain;
   width: 100%;
-  height: 25vw;
+  height: 200px;
 }
 footer {
   background-color: #333;
