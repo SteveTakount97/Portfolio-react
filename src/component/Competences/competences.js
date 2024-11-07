@@ -1,6 +1,6 @@
 // src/components/Skills.js
 import React, {useState,  useEffect} from 'react';
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt,} from 'react-icons/fa'; // Import des icônes
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaPhp} from 'react-icons/fa'; // Import des icônes
 import { SiNotion, SiRedux } from 'react-icons/si';
 import Carroussel from '../Slider/carousel';
 import { fetchDataProjet } from '../../services/data';
@@ -15,6 +15,7 @@ const skills = [
   { name: 'React-redux', level: '50%', color: 'black', icon: <SiRedux /> },
   { name: 'React Developper Tools', level: '70%', color: '#68A063', icon: <FaReact /> },
   { name: 'Git, Github', level: '85%', color: '#F05032', icon: <FaGitAlt /> },
+  { name: 'PHP, Laravel', level: '50%', color: '#F05020', icon: <FaPhp /> },
 ];
 
 const Skills = () => {

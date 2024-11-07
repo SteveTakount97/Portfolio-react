@@ -33,6 +33,12 @@ const CategoryBar = ({ selectedCategory, filterProjectsByCategory }) => {
       >
         SEO
       </button>
+      <button 
+        onClick={() => filterProjectsByCategory('PHP')} 
+        className={selectedCategory === 'PHP' ? 'active' : ''}
+      >
+        PHP, Laravel
+      </button>
     </div>
   );
 };
