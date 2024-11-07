@@ -95,7 +95,7 @@
         "id": "10",
         "title": "Projet 12",
         "description": "PHP, Démarrage d'un projet avec le modèle MCV et Programmation Orienté Objet",
-        "image": "/img/redux.jpeg",
+        "image": "/img/php.jpeg",
         "category": "PHP",
         "skills": ["PHP", "Recupération des données via PHP", "Programmation Orienté Objet", "Mise en place d'une base de donnée MySQL", "Travailler dans une équipe avec la méthode agile"],
         "info": "Dans ce projet, il était question de s'initier au PHP et à la Programmation orienté objet en travaillant sur un projet de A à Z avec une équipe dynamique ",
