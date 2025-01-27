@@ -39,6 +39,7 @@ section {
 .project-card {
   border: 3px solid #ccc;
   border-radius: 15px;
+  cursor: pointer;
   padding: 1em;
   width: 27%;
 
