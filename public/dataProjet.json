@@ -100,6 +100,16 @@
         "skills": ["PHP", "Recupération des données via PHP", "Programmation Orienté Objet", "Mise en place d'une base de donnée MySQL", "Travailler dans une équipe avec la méthode agile"],
         "info": "Dans ce projet, il était question de s'initier au PHP et à la Programmation orienté objet en travaillant sur un projet de A à Z avec une équipe dynamique ",
         "link": "https://github.com/SteveTakount97/Hackaton.git"
+      },
+      {
+        "id": "11",
+        "title": "Projet 13",
+        "description": "AdonisJS, Démarrage d'un projet avec le modèle MCV et Programmation Orienté Objet",
+        "image": "/img/adonis.png",
+        "category": "JavaScript",
+        "skills": ["Javascript", "Recupération des données via API", "Programmation Orienté Objet", "Mise en place d'une base de donnée PostgreSql", "Creation D'APIREST avec AdonisJs, Implementation du panneau administrateur,"],
+        "info": "Dans ce projet, il était question de s'initier sur le FrameWork Backend AdonisJs et à la Programmation orienté objet en travaillant sur un projet de A à Z avec une équipe dynamique ",
+        "link": "https://github.com/SteveTakount97/WFL-API.git"
       }
   ]
   
