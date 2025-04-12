@@ -39,7 +39,7 @@ const Hero = () => {
             </strong>
           <br/>  
         <div className='cv'>
-        <a href={`${process.env.PUBLIC_URL}/Cv-stevy-studi-.pdf`}  download="Cv-stevy-studi-.pdf" className="btn">Télécharger mon CV</a>
+        <a href={`${process.env.PUBLIC_URL}/CV_stève_dev.pdf`}  download="CV_stève_dev.pdf" className="btn">Télécharger mon CV</a>
         </div>  
       </div>
     </section>
