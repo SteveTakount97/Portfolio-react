@@ -124,7 +124,7 @@ h1, p, strong, .btn {
 .skills-container {
   flex: 1; /* La colonne des compétences occupe tout l'espace disponible */
   display: grid; /* On garde la grille pour organiser les compétences */
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1em;
 }
 
@@ -359,6 +359,9 @@ textarea{
   }
 .project-card{
   width: 100% !important;
+}
+.img-projet{
+  object-fit: contain;
 }
 #skills{
   flex-direction: column;

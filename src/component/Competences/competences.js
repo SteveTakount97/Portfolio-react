@@ -1,7 +1,7 @@
 // src/components/Skills.js
 import React, {useState,  useEffect} from 'react';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaPhp} from 'react-icons/fa'; // Import des icônes
-import { SiNotion, SiRedux } from 'react-icons/si';
+import { SiNotion, SiRedux, SiAdonisjs } from 'react-icons/si';
 import Carroussel from '../Slider/carousel';
 import { fetchDataProjet } from '../../services/data';
 
@@ -9,13 +9,14 @@ const skills = [
   { name: 'HTML', level: '90%', color: '#e34c26', icon: <FaHtml5 /> },
   { name: 'CSS', level: '85%', color: '#1572B6', icon: <FaCss3Alt /> },
   { name: 'SASS', level: '85%', color: '#1572B6', icon: <FaCss3Alt /> },
-  { name: 'JavaScript', level: '50%', color: '#f7df1e', icon: <FaJsSquare /> },
-  { name: 'React', level: '50%', color: '#61DBFB', icon: <FaReact /> },
+  { name: 'JavaScript', level: '65%', color: '#f7df1e', icon: <FaJsSquare /> },
+  { name: 'React', level: '60%', color: '#61DBFB', icon: <FaReact /> },
   { name: 'Notion, Lighthouse', level: '90%', color: 'green', icon: <SiNotion /> },
-  { name: 'React-redux', level: '50%', color: 'black', icon: <SiRedux /> },
+  { name: 'React-redux', level: '60%', color: 'black', icon: <SiRedux /> },
   { name: 'React Developper Tools', level: '70%', color: '#68A063', icon: <FaReact /> },
   { name: 'Git, Github', level: '85%', color: '#F05032', icon: <FaGitAlt /> },
   { name: 'PHP, Laravel', level: '50%', color: '#F05020', icon: <FaPhp /> },
+  { name: 'JavaScript, AdonisJs', level: '70%', color: '#4B32C3', icon: <SiAdonisjs /> },
 ];
 
 const Skills = () => {
