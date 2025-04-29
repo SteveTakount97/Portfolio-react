@@ -1,116 +1,125 @@
 [
-    {
-        "id": "1",
-        "title": "Projet 3",
-        "description": "Création de la page d'accueil responsive d'une agence de voyage HTML5-CSS",
-        "image": "/img/html5-Css.webp",
-        "category": "HTML/CSS",
-        "skills": ["Intégration HTML5", "CSS3", "Site Responsive", "Manipulation des blocs HTML"],
-        "info": "Dans ce projet, j'ai crée la page d'accueil d'une agence de voyage en utilisant HTML et CSS. Ma mission principale était d'intégrer l'interface responsive de leur site",
-        "link": "https://github.com/SteveTakount97/Projet3-Booki.git"
-      },
-    {
-      "id": "2",
-      "title": "Projet 4",
-      "description": "Amélioration de l'interface du site OhmyFood avec des animations modernes",
-      "image": "/img/sass.jpeg",
-      "category": "HTML/CSS",
-      "skills": ["Intégration HTML5", "La logique SASS", "Site Responsive", "Annimation de la page avec SASS"],
-      "info": "Ce projet m'a amèné à travailler sur l'interface mobile-first du site d’une start-up.  L'utilisation de Sass, implémentation des animations CSS et versionnisation du projet avec Git et GitHub. La principale tâche était d'intégrer une maquette en mobile-first. ",
-      "link": "https://github.com/SteveTakount97/projet4.git",
-      "Site": "https://stevetakount97.github.io/projet4"
-    },
-    {
-      "id": "3",
-      "title": "Projet 5",
-      "description": "Mise en place d'un Carrousel infini d'un Site d'impression avec du javaSript",
-      "image": "/img/js.webp",
-      "category": "JavaScript",
-      "skills": ["Intégration HTML5", "Utilisation CSS3", "Maîtrise de la logique JavaScript", "Manipulation des éléments du DOM"],
-      "info": "Ce projet, m'a initié au langage JavaScript en me chargeant de dynamiser le site internet statique d'une imprimerie en y ajoutant un carrousel interactif.",
-      "link": "https://github.com/SteveTakount97/Projet5_openclassroom.git",
-      "Site":"https://stevetakount97.github.io/Projet5_openclassroom"
-    },
-    {
-        "id": "4",
-        "title": "Projet 6",
-        "description": "Création d'une page web dynamique",
-        "image": "/img/js.webp",
-        "category": "JavaScript",
-        "skills": ["Dynamisation du site avec JavaScript", "Redaction des requêtes HTTP via API", "Manipulation des éléments du DOM"],
-        "info": "Dans Ce projet, Nous nous sommes engagés à créer une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API. J'ai travailleré sur la partie Front-End du site, où j'ai développeré la page de présentation des travaux de l'architecte à partir du HTML fourni. Cela impliquerait la gestion des événements utilisateurs et la manipulation des éléments du DOM avec JavaScript. J'ai créerez également une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias.",
-        "link": "https://github.com/SteveTakount97/Projet6.git"
-      },
-      {
-        "id": "5",
-        "title": "Projet 7",
-        "description": "Planification du développement d'un site web",
-        "image": "/img/notion1.jpeg",
-        "category": "SEO",
-        "skills": ["Utilisation de Notion pour la gestion des tâches", "Redaction des spécificités techniques du site", "Une enquête sur les besoins du clients"],
-        "info": "Ce projet m'a impliqué dans la planification du développement d'un site web. Mon rôle consistait à planifier le développement du site web, sans intervenir directement dans le codage. En ayant  accès à la maquette, aux spécifications fonctionnelles et aux User Stories du site.",
-        "link": "https://github.com/SteveTakount97/Projet7-Sp-cification-technique.git"
-      },
-      {
-        "id": "6",
-        "title": "Projet 8",
-        "description": "Création d'une application web de location immobilière avec React",
-        "image": "/img/react.png",
-        "category": "React",
-        "skills": ["React", "Apprentissage dans la synthaxe React", "Appels via API", "Manipulation de la data base"],
-        "info": "Dans ce projet, J'ai implémenté le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive. J'ai travaillé sur la logique de présentation des données et les composants React, une bibliothèque JavaScript populaire pour la création d'interfaces utilisateur. J'ai utiliseré React Router enfin de configurer la navigation entre les différentes pages de l'application.",
-        "link": "https://github.com/SteveTakount97/Projet8-kasa-react.git"
-      },
-      {
-        "id": "7",
-        "title": "Projet 9",
-        "description": "Optimisation du réferencement d'un Site de photographe",
-        "image": "/img/ref.jpeg",
-        "category": "SEO",
-        "skills": ["Utilisation de Lighthouse", "Optimisation du SEO d'un site", "Utilisation de Wave", "Intégration HTML5"],
-        "info": "Dans ce projet, j'étais dans la peau d'un développeur freelance avec pour objectif d'optimiser le référencement d’un site, en améliorant sa performance et son accessibilité. La première tâche était d'identifier les problèmes de chargement et de référencement.",
-        "link": "https://github.com/SteveTakount97/Projet9-referencement.git"
-      },
-      {
-        "id": "8",
-        "title": "Projet 10",
-        "description": "Débuggez le site d'une agence d'événementiel",
-        "image": "/img/reactdevtool.jpeg",
-        "category": "React",
-        "skills": ["React", "Analyse et résolution des bugs", " Uilisation de React developperTools"],
-        "info": "Dans ce projet, Il était question de débugger et finaliser le développement d'un site one-page. Mon premier objectif était d'examiner le code existant. En utilisant Chrome DevTools pour identifier et comprendre les problèmes et bugs signalés dans le site web actuel. Après avoir identifié les problèmes, Je devai prendre en charge la résolution de ces bugs et problèmes.",
-        "link": "https://github.com/SteveTakount97/Projet10-debuging.git"
-      },
-      {
-        "id": "9",
-        "title": "Projet 11",
-        "description": "Implémentation du Front-end d'une application bancaire avec React",
-        "image": "/img/redux.jpeg",
-        "category": "React",
-        "skills": ["React", "Logique React-Redux-Tolki", "Appels API", "Optimisation du SEO du site"],
-        "info": "Dans ce projet, J'ai travaillé sur le développement front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive. La mission principale était d'intégrer le front-end avec le back-end via des appels API.",
-        "link": "https://github.com/SteveTakount97/Projet11-ArgentBank.git"
-      },
-      {
-        "id": "10",
-        "title": "Projet 12",
-        "description": "PHP, Démarrage d'un projet avec le modèle MCV et Programmation Orienté Objet",
-        "image": "/img/php.jpeg",
-        "category": "PHP",
-        "skills": ["PHP", "Recupération des données via PHP", "Programmation Orienté Objet", "Mise en place d'une base de donnée MySQL", "Travailler dans une équipe avec la méthode agile"],
-        "info": "Dans ce projet, il était question de s'initier au PHP et à la Programmation orienté objet en travaillant sur un projet de A à Z avec une équipe dynamique ",
-        "link": "https://github.com/SteveTakount97/Hackaton.git"
-      },
-      {
-        "id": "11",
-        "title": "Projet 13",
-        "description": "AdonisJS, Démarrage d'un projet avec le modèle MCV et Programmation Orienté Objet",
-        "image": "/img/adonis.png",
-        "category": "JavaScript",
-        "skills": ["Javascript", "Traitement des données via API", "Programmation Orienté Objet", "Mise en place d'une base de donnée PostgreSql", "Creation D'API_REST avec AdonisJs, Implementation du panneau administrateur avec TailAdmin,"
-       ,"Authentification sécurisée, Gestion des utilisateurs (mise en place des méthodes CRUD)"],
-        "info": "Dans ce projet, il était question de s'initier sur le FrameWork Backend AdonisJs et à la Programmation orienté objet en travaillant sur un projet de A à Z avec une équipe dynamique ",
-        "link": "https://github.com/SteveTakount97/WFL-API.git"
-      }
-  ]
-  
+  {
+    "id": "1",
+    "title": "Page d'accueil d'une agence de voyage",
+    "description": "Création responsive avec HTML5 et CSS3",
+    "image": "/img/html5-Css.webp",
+    "category": "HTML/CSS",
+    "technos": ["HTML5", "CSS3"],
+    "skills": ["Intégration", "Responsive Design", "Structuration de page"],
+    "info": "Création de la page d’accueil d’une agence de voyage. L’objectif principal était l'intégration fidèle d'une maquette responsive en HTML et CSS.",
+    "link": "https://github.com/SteveTakount97/Projet3-Booki.git"
+  },
+  {
+    "id": "2",
+    "title": "Site mobile-first avec animations",
+    "description": "Modernisation de l’interface du site OhmyFood avec Sass",
+    "image": "/img/sass.jpeg",
+    "category": "HTML/CSS",
+    "technos": ["HTML5", "Sass", "Git"],
+    "skills": ["Mobile-first", "Animations CSS", "Versionning Git"],
+    "info": "Amélioration de l’interface mobile-first d’un site de restauration. Intégration avec Sass, mise en place d’animations modernes et gestion du projet avec Git/GitHub.",
+    "link": "https://github.com/SteveTakount97/projet4.git",
+    "demo": "https://stevetakount97.github.io/projet4"
+  },
+  {
+    "id": "3",
+    "title": "Carrousel JavaScript",
+    "description": "Ajout d’un carrousel interactif sur un site d’impression",
+    "image": "/img/js.webp",
+    "category": "JavaScript",
+    "technos": ["HTML5", "CSS3", "JavaScript"],
+    "skills": ["DOM", "Événements", "Logique JavaScript"],
+    "info": "Ajout d’un carrousel infini pour rendre un site statique plus interactif. Initiation aux bases de JavaScript et au DOM.",
+    "link": "https://github.com/SteveTakount97/Projet5_openclassroom.git",
+    "demo": "https://stevetakount97.github.io/Projet5_openclassroom"
+  },
+  {
+    "id": "4",
+    "title": "Page dynamique et modale d'administration",
+    "description": "Création d'une interface dynamique avec appels API",
+    "image": "/img/js.webp",
+    "category": "JavaScript",
+    "technos": ["JavaScript", "API"],
+    "skills": ["Requêtes HTTP", "DOM", "Création de modales", "Gestion d’événements"],
+    "info": "Réalisation de la page de présentation d’une architecte, avec appels API et gestion d’une interface d’administration incluant un système d’upload.",
+    "link": "https://github.com/SteveTakount97/Projet6.git"
+  },
+  {
+    "id": "5",
+    "title": "Spécifications d'un site web",
+    "description": "Planification et documentation technique avec Notion",
+    "image": "/img/notion1.jpeg",
+    "category": "Gestion de projet",
+    "technos": ["Notion"],
+    "skills": ["Rédaction de spécifications", "Organisation", "Analyse des besoins"],
+    "info": "Planification complète du développement d’un site web : rédaction des spécifications techniques et fonctionnelles, sans développement.",
+    "link": "https://github.com/SteveTakount97/Projet7-Sp-cification-technique.git"
+  },
+  {
+    "id": "6",
+    "title": "Application de location immobilière",
+    "description": "Développement d’une interface moderne avec React",
+    "image": "/img/react.png",
+    "category": "React",
+    "technos": ["React", "React Router"],
+    "skills": ["Composants", "Navigation", "Appels API"],
+    "info": "Développement du front-end de l’application Kasa en React, avec gestion de la navigation via React Router.",
+    "link": "https://github.com/SteveTakount97/Projet8-kasa-react.git"
+  },
+  {
+    "id": "7",
+    "title": "Optimisation SEO",
+    "description": "Amélioration de la performance d’un site de photographie",
+    "image": "/img/ref.jpeg",
+    "category": "SEO",
+    "technos": ["Lighthouse", "Wave", "HTML"],
+    "skills": ["Accessibilité", "Performance Web", "SEO technique"],
+    "info": "Audit et optimisation du référencement naturel d’un site : amélioration des temps de chargement, de l’accessibilité et de la structure HTML.",
+    "link": "https://github.com/SteveTakount97/Projet9-referencement.git"
+  },
+  {
+    "id": "8",
+    "title": "Débogage React",
+    "description": "Correction des erreurs d’un site one-page React",
+    "image": "/img/reactdevtool.jpeg",
+    "category": "React",
+    "technos": ["React", "DevTools"],
+    "skills": ["Débogage", "Analyse de code", "Résolution de bugs"],
+    "info": "Diagnostic et résolution des bugs d’un site développé en React, avec utilisation de Chrome DevTools pour l’analyse des erreurs.",
+    "link": "https://github.com/SteveTakount97/Projet10-debuging.git"
+  },
+  {
+    "id": "9",
+    "title": "Application bancaire",
+    "description": "Développement front-end d’une application bancaire",
+    "image": "/img/redux.jpeg",
+    "category": "React",
+    "technos": ["React", "Redux", "API"],
+    "skills": ["Architecture Redux", "Appels API", "Optimisation SEO"],
+    "info": "Implémentation de l’interface client d’une application bancaire avec React et Redux, incluant des appels API et une optimisation SEO.",
+    "link": "https://github.com/SteveTakount97/Projet11-ArgentBank.git"
+  },
+  {
+    "id": "10",
+    "title": "Initiation au PHP",
+    "description": "Développement d’un site web avec PHP orienté objet",
+    "image": "/img/php.jpeg",
+    "category": "PHP",
+    "technos": ["PHP", "MySQL"],
+    "skills": ["POO", "MVC", "Méthode Agile", "Connexion BDD"],
+    "info": "Participation à un projet collaboratif en PHP avec une base de données MySQL et une architecture MVC, dans une approche agile.",
+    "link": "https://github.com/SteveTakount97/Hackaton.git"
+  },
+  {
+    "id": "11",
+    "title": "API REST avec AdonisJS",
+    "description": "Développement complet d’une API avec AdonisJS",
+    "image": "/img/adonis.png",
+    "category": "JavaScript",
+    "technos": ["AdonisJS", "PostgreSQL", "TailAdmin"],
+    "skills": ["POO", "API REST", "CRUD", "Authentification sécurisée"],
+    "info": "Développement back-end avec AdonisJS : création d’une API REST, gestion des utilisateurs (CRUD), sécurisation des routes, et création du panneau d'administration avec TailAdmin.",
+    "link": "https://github.com/SteveTakount97/WFL-API.git"
+  }
+]

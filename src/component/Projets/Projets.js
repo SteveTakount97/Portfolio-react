@@ -40,12 +40,12 @@ const Projects = () => {
 
    // Fonction pour filtrer les projets par catégorie
    const filterProjectsByCategory = (category) => {
-    setSelectedCategory(category); // Met à jour la catégorie sélectionnée
+    setSelectedCategory(category); 
     if (category === 'Tous') {
-      setFilteredProjets(projet); // Si "Tous" est sélectionné, on affiche tous les projets
+      setFilteredProjets(projet); 
     } else {
       const filtered = projet.filter(projet => projet.category === category);
-      setFilteredProjets(filtered); // Filtre les projets selon la catégorie choisie
+      setFilteredProjets(filtered); 
     }
   };
   
@@ -63,7 +63,10 @@ const Projects = () => {
               <img src={`${process.env.PUBLIC_URL}${project.image}`} alt={project.title} className='img-projet'/>
               <h3>{project.title}</h3>
               <p>{project.description}</p>
+              <div className='navigation'>
               <a href={project.link} target="_blank" rel="noopener noreferrer">Voir sur GitHub</a>
+              <a href={project.demo} target="_blank" rel="noopener noreferrer">Voir une demo du Site</a>
+              </div>
             </div>
           ))
         ) : (
