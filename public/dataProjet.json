@@ -65,7 +65,8 @@
     "technos": ["React", "React Router"],
     "skills": ["Composants", "Navigation", "Appels API"],
     "info": "Développement du front-end de l’application Kasa en React, avec gestion de la navigation via React Router.",
-    "link": "https://github.com/SteveTakount97/Projet8-kasa-react.git"
+    "link": "https://github.com/SteveTakount97/Projet8-kasa-react.git",
+    "demo": "https://stevetakount97.github.io/Projet8-kasa-react"
   },
   {
     "id": "7",
