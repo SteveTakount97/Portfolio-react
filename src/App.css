@@ -14,7 +14,8 @@ header {
 }
 a:hover{
   border-bottom: rgb(30, 103, 238) 2px solid;
-  color: rgb(30, 103, 238);
+  color: white;
+  box-shadow: 0 8px 20px white;
 }
 
 header nav ul {
