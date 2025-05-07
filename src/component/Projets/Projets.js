@@ -3,12 +3,12 @@ import React, { useEffect, useState } from 'react';
 import { fetchDataProjet } from '../../services/data';
 import CategoryBar from '../select/select';
 import ModalProjet from '../../modalProjet/modalProjet';
+import { motion } from 'framer-motion'; // Import de Framer Motion
 
 const Projects = () => {
   const [projet, setProjet] = useState([]);
-  const [filteredProjets, setFilteredProjets] = useState([]); // Stocker les projets filtrés
-  const [selectedCategory, setSelectedCategory] = useState('Tous'); // Stocker la catégorie sélectionnée
-  
+  const [filteredProjets, setFilteredProjets] = useState([]);
+  const [selectedCategory, setSelectedCategory] = useState('Tous');
   const [isModalOpen, setModalOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
 
@@ -22,14 +22,12 @@ const Projects = () => {
     setSelectedProject(null);
   };
 
-
-  // Function to fetch data
   useEffect(() => {
     const loadProjects = async () => {
       try {
-        const data = await fetchDataProjet('/data.json'); // Utilisation de la fonction importée
-        setProjet(data); // Stocker les données dans le state
-        setFilteredProjets (data);
+        const data = await fetchDataProjet('/data.json');
+        setProjet(data);
+        setFilteredProjets(data);
       } catch (error) {
         console.error('Erreur lors du chargement des projets', error);
       }
@@ -38,41 +36,64 @@ const Projects = () => {
     loadProjects();
   }, []);
 
-   // Fonction pour filtrer les projets par catégorie
-   const filterProjectsByCategory = (category) => {
-    setSelectedCategory(category); 
+  const filterProjectsByCategory = (category) => {
+    setSelectedCategory(category);
     if (category === 'Tous') {
-      setFilteredProjets(projet); 
+      setFilteredProjets(projet);
     } else {
       const filtered = projet.filter(projet => projet.category === category);
-      setFilteredProjets(filtered); 
+      setFilteredProjets(filtered);
     }
   };
-  
+
   return (
     <section id="projects">
-      <h2>Mes Projets</h2>
+      <motion.h2
+        initial={{ y: -50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6 }}
+      >
+        Mes Projets
+      </motion.h2>
+
       <CategoryBar  
-      selectedCategory={selectedCategory} 
-      filterProjectsByCategory={filterProjectsByCategory} 
+        selectedCategory={selectedCategory} 
+        filterProjectsByCategory={filterProjectsByCategory} 
       />
-            <div className="projects-grid">
+
+      <motion.div
+        className="projects-grid"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.5}}
+        re
+      >
         {filteredProjets.length > 0 ? (
           filteredProjets.map((project, index) => (
-            <div key={index} className="project-card"  onClick={() => openModal(project)}>
+            <motion.div
+              key={index}
+              className="project-card"
+              onClick={() => openModal(project)}
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
               <img src={`${process.env.PUBLIC_URL}${project.image}`} alt={project.title} className='img-projet'/>
               <h3>{project.title}</h3>
               <p>{project.description}</p>
               <div className='navigation'>
-              <a href={project.link} target="_blank" rel="noopener noreferrer">Voir sur GitHub</a>
-              <a href={project.demo} target="_blank" rel="noopener noreferrer">Voir une demo du Site</a>
+                <a href={project.link} target="_blank" rel="noopener noreferrer">Voir sur GitHub</a>
+                <a href={project.demo} target="_blank" rel="noopener noreferrer">Voir une demo du Site</a>
               </div>
-            </div>
+            </motion.div>
           ))
         ) : (
           <p>Aucun projet disponible pour cette catégorie.</p>
         )}
-      </div>
+      </motion.div>
+
       {selectedProject && (
         <ModalProjet
           isOpen={isModalOpen}
@@ -80,7 +101,6 @@ const Projects = () => {
           project={selectedProject}
         />
       )}
-
     </section>
   );
 };

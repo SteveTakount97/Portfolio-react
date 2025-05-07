@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -8,7 +9,6 @@ body {
 }
 .container-body{
   margin: auto;
-  max-width: 1440px;
 }
 
 code {
@@ -24,22 +24,21 @@ code {
 /*composant style intro*/
 #hero {
   position: relative;
-  background-image: url('../public/img/photo_p.avif'); /* Lien vers votre image */
-  background-size: 300px 150px; /* Largeur de 300px, hauteur de 150px */
-  background-size: contain; /* Pour couvrir toute la section */
-  background-position: center; /* Centrer l'image */
+  background-image: url('../public/img/photo_p.avif'); 
+  background-size: 300px 150px; 
+  background-size: contain; 
+  background-position: center;
   background-repeat: no-repeat;
-  color: white; /* Couleur du texte pour contraste */
+  color: white; 
   padding: 50px;
   text-align: center;
   height: 400px;
-  max-width: 1440px;
 }
 .cv{
   margin-top: 10vw;
 }
 .hero-content {
-  position: relative; /* Important pour maintenir le contenu au-dessus */
+  position: relative; 
   z-index: 1;
   margin: auto;
 }
@@ -51,19 +50,18 @@ code {
   left: 0;
   width: 100%;
   height: 100%;
-  max-width: 1440px;
-  background-color: rgba(0, 0, 0, 0.5); /* Filtre sombre avec opacité pour lisibilité */
-  z-index: 0; /* Met le filtre derrière le contenu */
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 0; 
 }
 
 h1, p, strong, .btn {
   position: relative;
-  z-index: 1; /* Assure que le texte soit au-dessus du filtre et de l'image */
+  z-index: 1; 
 }
 .btn:hover {
   background-color: #333;
   color: #fff;
-  transform: scale(1.05); /* Agrandissement léger au survol */
+  transform: scale(1.05); 
 }
 .hero-content h1, .hero-content p, .hero-content strong {
   opacity: 0;
@@ -115,16 +113,16 @@ h1, p, strong, .btn {
 }
 
 .skills-content {
-  display: flex; /* Met en place flexbox */
-  justify-content: space-between; /* Espace entre les éléments */
-  align-items: flex-end; /* Aligne les éléments au début verticalement */
-  gap: 2em; /* Espace entre les deux colonnes */
+  display: flex; 
+  justify-content: space-between; 
+  align-items: flex-end; 
+  gap: 2em; 
 }
 
 .skills-container {
-  flex: 1; /* La colonne des compétences occupe tout l'espace disponible */
-  display: grid; /* On garde la grille pour organiser les compétences */
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  flex: 1; 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 1em;
 }
 
@@ -138,7 +136,7 @@ h1, p, strong, .btn {
 .skills-image img {
   max-width: 100%; /* Image responsive */
   height: 35vw;
-  border-radius: 10px; /* Optionnel, pour donner un effet de bord arrondi à l'image */
+  border-radius: 10px; 
 }
 
 .skill {
@@ -274,8 +272,8 @@ textarea{
 /* Animation d'apparition */
 @keyframes fadeIn {
   to {
-    opacity: 1; /* Fin à pleine opacité */
-    transform: scale(1); /* Fin à échelle normale */
+    opacity: 1; 
+    transform: scale(1); 
   }
 }
 .modal-content-second{
@@ -394,4 +392,5 @@ textarea{
  .about, h1, p, strong  {
   font-size: 0.8em;
 }
+
 }

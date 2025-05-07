@@ -122,5 +122,16 @@
     "skills": ["POO", "API REST", "CRUD", "Authentification sécurisée"],
     "info": "Développement back-end avec AdonisJS : création d’une API REST, gestion des utilisateurs (CRUD), sécurisation des routes, et création du panneau d'administration avec TailAdmin.",
     "link": "https://github.com/SteveTakount97/WFL-API.git"
+  },
+  {
+    "id": "12",
+    "title": "API REST avec AdonisJS",
+    "description": "Développement d'une application de Gestion des Tontines avec AdonisJS",
+    "image": "/img/adonis.png",
+    "category": "JavaScript",
+    "technos": ["AdonisJS", "PostgreSQL", "TailwingCss", "NestJS", "Framer-motion"],
+    "skills": ["Programation orienté Objet", "API REST", "CRUD", "Authentification sécurisée", "creation de page intuitive et moderne avec NestJs"],
+    "info": "Développement back-end avec AdonisJS : création d’une API REST permetant la gestion automatisé des tontines, gestion des utilisateurs (CRUD), sécurisation des routes",
+    "link": "https://github.com/SteveTakount97/TDP_API"
   }
 ]

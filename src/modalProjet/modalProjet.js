@@ -11,11 +11,11 @@ const ModalProjet = ({ isOpen, onClose, project }) => {
     }
 
     return () => {
-      document.body.style.overflow = 'auto'; // Assurez-vous que le scroll est réactivé quand le composant est démonté
+      document.body.style.overflow = 'auto'; 
     };
   }, [isOpen]);
 
-  if (!isOpen) return null; // Ne pas afficher la modale si elle n'est pas ouverte
+  if (!isOpen) return null; 
 
   return (
     <div className="modal-overlay">

@@ -4,6 +4,7 @@ import React from 'react';
 const Header = () => {
   return (
     <header>
+      <img src="/img/banniere.png" alt="banniere" />
       <nav>
         <ul>
           <li>

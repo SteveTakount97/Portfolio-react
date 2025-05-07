@@ -12,16 +12,20 @@ header {
   color: white;
   padding: 1em;
 }
+a:hover{
+  border-bottom: rgb(30, 103, 238) 2px solid;
+  color: rgb(30, 103, 238);
+}
 
 header nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
+  gap: 20px;
   list-style-type: none;
 }
 
 section {
   padding: 1em;
-  margin: 2em 0;
   background-color: #fcf6f6;
 }
 
