@@ -374,8 +374,14 @@ textarea{
 .img-projet{
   object-fit: contain;
 }
+.modal-techno{
+  display: none;
+}
 #skills{
   flex-direction: column;
+}
+.modal-image{
+  display: none;
 }
 .skills-image{
   justify-content: center;
