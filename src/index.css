@@ -58,6 +58,10 @@ h1, p, strong, .btn {
   position: relative;
   z-index: 1; 
 }
+.title-info{
+   text-align: center;
+  padding: 8px;
+}
 .btn:hover {
   background-color: #333;
   color: #fff;
@@ -306,6 +310,12 @@ textarea{
 
 .skill-item {
   background-color: #f0f0f0;
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+.techno-item{
+  background-color: bisque;
   margin: 5px 0;
   padding: 5px;
   border-radius: 5px;

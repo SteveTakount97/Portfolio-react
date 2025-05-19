@@ -35,9 +35,17 @@ const ModalProjet = ({ isOpen, onClose, project }) => {
               ))}
             </ul>
           </div>
+          <div className="modal-skills">
+            <h3>Technologies Utilisées</h3>
+             <ul className="skills-list">
+              {project.technos.map((technos, index) => (
+                <li key={index} className="techno-item">{technos}</li>
+              ))}
+            </ul>
+          </div>
           <div className="modal-info">
-            <h3>Infos Projet</h3>
-            <p>{project.info}</p>
+            <h3 >Infos Projet</h3>
+            <p className='title-info'>{project.info}</p>
           </div>
         </div>
       </div>
