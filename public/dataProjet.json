@@ -76,8 +76,9 @@
     "category": "SEO",
     "technos": ["Lighthouse", "Wave", "HTML"],
     "skills": ["Accessibilité", "Performance Web", "SEO technique"],
-    "info": "Audit et optimisation du référencement naturel d’un site : amélioration des temps de chargement, de l’accessibilité et de la structure HTML.",
-    "link": "https://github.com/SteveTakount97/Projet9-referencement.git"
+    "info": "Audit et optimisation du référencement naturel d’un site (portfolio Nina) : amélioration des temps de chargement, de l’accessibilité et de la structure HTML.",
+    "link": "https://github.com/SteveTakount97/Projet9-referencement.git",
+    "demo": "https://stevetakount97.github.io/Projet9-referencement"
   },
   {
     "id": "8",
