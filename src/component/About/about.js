@@ -7,6 +7,7 @@ const About = () => {
   return (
     <motion.section
       className="about-section"
+      id='about'
       whileHover={{ scale: 1.02 }}
       transition={{ type: 'spring', stiffness: 100, damping: 15 }}
     >
