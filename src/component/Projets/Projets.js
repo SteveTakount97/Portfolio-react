@@ -36,6 +36,7 @@ const Projects = () => {
     loadProjects();
   }, []);
 
+
   const filterProjectsByCategory = (category) => {
     setSelectedCategory(category);
     if (category === 'Tous') {
@@ -67,7 +68,7 @@ const Projects = () => {
   whileInView={{ opacity: 1, x: 0 }}
   exit={{ opacity: 0, x: -40 }} // vers la gauche quand on quitte
   transition={{ duration: 0.5, ease: 'easeOut' }}
-  viewport={{ once: false, amount: 0.2 }} // réagit au scroll
+  viewport={{ once: false, amount: 0.1 }} // réagit au scroll
       >
         {filteredProjets.length > 0 ? (
           filteredProjets.map((project, index) => (
