@@ -1,8 +1,6 @@
-// src/components/Skills.js
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaPhp } from 'react-icons/fa';
 import { SiNotion, SiRedux, SiAdonisjs } from 'react-icons/si';
 import { motion } from 'framer-motion';
-
 
 const skills = [
   { name: 'HTML', level: '90%', color: '#e34c26', icon: <FaHtml5 />, description: 'Structure des pages web avec sémantique optimisée.' },
@@ -19,35 +17,51 @@ const skills = [
 ];
 
 const Skills = () => {
-
   return (
-    <div id="skills-wrapper">
-      <h2>Mes Compétences</h2>
+    <div id="skills-wrapper" className="bg-black text-white py-16 ">
+      <section
+        id="skills"
+        className="max-w-[1440px] mx-auto px-30 sm:px-12"
+        style={{ minHeight: '100vh' }}
+      >
+        <h2 className="text-4xl font-extrabold mb-14 text-center tracking-wide">
+          Mes Compétences
+        </h2>
 
-      <section id="skills">
-    
-        <div className="skills-container">
+        <div className="flex flex-wrap justify-center gap-8">
           {skills.map((skill, index) => (
             <motion.div
-            className="flex gap-12 items-center"
-            animate={{ x: ['40%', '-40%'] }}
-            transition={{
-              repeat: Infinity,
-              duration: 15,
-              ease: 'linear'
-            }}
-          >
-              <div className="skill-header">
-                {skill.icon}
-                <h3>{skill.name}</h3>
+              key={index}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 30 }} // animation inverse
+              transition={{ duration: 0.5, delay: index * 0.07 }}
+             viewport={{ once: false, amount: 0.3 }} // réactif au scroll
+              className="w-full sm:w-[47%] lg:w-[30%] bg-neutral-900 border border-white rounded-2xl p-6
+                flex flex-col
+                transition-all duration-300
+                hover:scale-[1.03] hover:shadow-[0_0_20px_8px_rgba(255,255,255,0.35)]
+                cursor-default"
+            >
+              <div className="flex items-center gap-4 mb-5">
+                <span className="text-4xl" style={{ color: skill.color }}>
+                  {skill.icon}
+                </span>
+                <h3 className="text-xl font-semibold">{skill.name}</h3>
               </div>
-              <p className="skill-description">{skill.description}</p>
-              <div className="skill-bar">
+
+              <p className="text-sm text-gray-300 mb-6 flex-grow">{skill.description}</p>
+
+              <div className="bg-neutral-800 rounded-full h-5 overflow-hidden">
                 <div
-                  className="skill-level"
-                  style={{ width: skill.level, backgroundColor: skill.color }}
+                  className="h-full rounded-full flex items-center justify-end pr-3 text-xs font-semibold text-white select-none"
+                  style={{
+                    width: skill.level,
+                    backgroundColor: skill.color,
+                    transition: 'width 0.5s ease-in-out',
+                  }}
                 >
-                  <span>{skill.level}</span>
+                  {skill.level}
                 </div>
               </div>
             </motion.div>

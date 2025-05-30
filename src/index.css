@@ -56,6 +56,7 @@ code {
 
 h1, p, strong, .btn {
   position: relative;
+  color: #ffff;
   z-index: 1; 
 }
 .title-info{
@@ -106,58 +107,12 @@ h1, p, strong, .btn {
   justify-content: center;
 }
 /* src/components/Skills.css */
-#skills-wrapper{
-  padding-left: 2em;
-}
+
 #skills {
-  padding: 2em;
-  background-color: #f9f9f9;
-  display: flex;
-  gap: 2em;
+  background-color: black;
+  color: white;
 }
 
-.skills-content {
-  display: flex; 
-  justify-content: space-between; 
-  align-items: flex-end; 
-  gap: 2em; 
-}
-
-.skills-container {
-  flex: 1; 
-  display: grid; 
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 1em;
-}
-
-.skills-image {
-  flex: 1; /* La colonne de l'image occupe tout l'espace disponible */
-  display: flex;
-  align-items: center;
-
-}
-
-.skills-image img {
-  max-width: 100%; /* Image responsive */
-  height: 35vw;
-  border-radius: 10px; 
-}
-
-.skill {
-  background-color: white;
-  border: 1px solid #ddd;
-  padding: 1em;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.skill-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 0.5em;
-}
 .carousel-image{
   width: 100%;
   height: 100%;

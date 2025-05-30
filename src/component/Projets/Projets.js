@@ -63,10 +63,11 @@ const Projects = () => {
 
       <motion.div
         className="projects-grid"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1.5}}
-        re
+      initial={{ opacity: 0, x: -30 }} // décalé à gauche
+  whileInView={{ opacity: 1, x: 0 }}
+  exit={{ opacity: 0, x: -40 }} // vers la gauche quand on quitte
+  transition={{ duration: 0.5, ease: 'easeOut' }}
+  viewport={{ once: false, amount: 0.2 }} // réagit au scroll
       >
         {filteredProjets.length > 0 ? (
           filteredProjets.map((project, index) => (
@@ -74,11 +75,12 @@ const Projects = () => {
               key={index}
               className="project-card"
               onClick={() => openModal(project)}
-              initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 30 }}
+              transition={{ duration: 0.4, delay: index * 0.06 }}
+              viewport={{ once: false, amount: 0.1 }}
             >
               <img src={`${process.env.PUBLIC_URL}${project.image}`} alt={project.title} className='img-projet'/>
               <h3>{project.title}</h3>

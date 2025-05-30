@@ -29,6 +29,12 @@ section {
   padding: 1em;
   background-color: #fcf6f6;
 }
+#projects{
+  background-color: black;
+  color: #ffff;
+
+}
+
 
 .projects-grid {
   display: flex;
@@ -37,7 +43,7 @@ section {
   gap: 1em;
 }
 .project-card:hover {
-  background-color: #898686;;
+  box-shadow: 0 8px 20px white;
   color: #ffff;
   transform: scale(1.05); /* Agrandissement léger au survol */
 }

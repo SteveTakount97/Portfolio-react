@@ -86,7 +86,7 @@
     "description": "Correction des erreurs d’un site one-page React",
     "image": "/img/reactdevtool.jpeg",
     "category": "React",
-    "technos": ["React", "DevTools","Git", "GitHub"],
+    "technos": ["React18", "DevTools","Git", "GitHub"],
     "skills": ["Débogage", "Analyse du code Existant", "Résolution de bugs"],
     "info": "Diagnostic et résolution des bugs d’un site développé en React, avec utilisation de Chrome DevTools pour l’analyse des erreurs.",
     "link": "https://github.com/SteveTakount97/Projet10-debuging.git"
@@ -97,7 +97,7 @@
     "description": "Développement front-end d’une application bancaire",
     "image": "/img/redux.jpeg",
     "category": "React",
-    "technos": ["React", "Redux-Toolkit", "API","Git", "GitHub"],
+    "technos": ["React18", "Redux-Toolkit", "API","Git", "GitHub"],
     "skills": ["Architecture Redux", "Appels API : ","Connexion - Déconnexion","Mise à jour des données Users", "Optimisation SEO"],
     "info": "Implémentation de l’interface client d’une application bancaire avec React et Redux, incluant des appels API et une optimisation SEO.",
     "link": "https://github.com/SteveTakount97/Projet11-ArgentBank.git"
